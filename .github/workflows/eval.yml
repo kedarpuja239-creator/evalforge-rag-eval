@@ -1,8 +1,7 @@
 name: eval-gate
 on:
   workflow_dispatch:   # lets you start the workflow by hand from the Actions tab (used for the red team)
-  pull_request:
-    paths: ["evalkit/**", "DATA/**", "data/**", "thresholds.json", "requirements.txt"]
+  pull_request:   # no paths filter: a required check must report on every pull request, or merging hangs
 
 jobs:
   retrieval:
