@@ -1,0 +1,8 @@
+SOURCE: https://www.myvi.in/help-support/faqs/how-is-4g-different-from-3g-and-2g
+
+Services
+How is 4G different from 3G/2G ?
+4G, 3G and 2G are all different generations of network communication technology with different capabilities. However, 4G is significantly different from 3g and 2g in terms of architecture, speed, spectrum efficiency, and compatibility. 4G ensured faster speeds with lower latency and support for advanced services offering seamless transition between networks that paved the way for further development in mobile network technologies.
+explore more
+How is 4G different from LTE?
+Do I need a separate SIM to use 4G services?

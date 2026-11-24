@@ -1,0 +1,47 @@
+name: eval-gate
+on:
+  workflow_dispatch:   # lets you start the workflow by hand from the Actions tab (used for the red team)
+  pull_request:
+    paths: ["evalkit/**", "DATA/**", "data/**", "thresholds.json", "requirements.txt"]
+
+jobs:
+  retrieval:
+    # Local embeddings: this gate needs no API key, so it can run on every pull request.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -r requirements.txt
+      - run: pytest -q                          # unit tests: metrics, gate logic, chunking, retriever
+      - run: python -m evalkit.index            # rebuild the index from the committed corpus
+      - run: python -m evalkit.run_eval         # retrieval metrics on the golden set
+      - run: python -m evalkit.gate             # fails the PR on a floor breach or a regression
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: eval-results, path: results/latest.json }
+
+  redteam:
+    # Manual only: it calls OpenAI (attack generation, answers, grading), so it costs money and needs
+    # an OPENAI_API_KEY repository secret. Start it from the Actions tab with "Run workflow".
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      PYTHONPATH: ${{ github.workspace }}   # so promptfoo can import the evalkit package
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -r requirements.txt
+      - run: python -m evalkit.index
+      - run: npx promptfoo@latest redteam run -c promptfoo/promptfooconfig.yaml -o results/redteam.json
+      - run: npx promptfoo@latest eval -c promptfoo/custom_tests.yaml -o results/custom_redteam.json
+      - run: python -m evalkit.gate_redteam results/redteam.json results/custom_redteam.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: redteam-results, path: results/*redteam.json }

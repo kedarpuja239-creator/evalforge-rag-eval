@@ -1,0 +1,24 @@
+SOURCE: https://www.myvi.in/help-support/faqs/how-to-activate-do-not-disturb-dnd-services
+
+Services
+I want to activate Do not Disturb ( DND ) services.
+With the Vi Do Not Disturb (DND) service, you can register for full or partial blocking of telemarketing calls/sms from registered telemarketers. You can register for the DND service via Vi App, Website, IVR or SMS.
+Register via Vi App
+1. Go to Help & Support
+2. Search for DND in the list of FAQs and expand it
+3. Click on the link to activate full/partial DND or block promotions
+Register via website
+1. Go to
+https://www.myvi.in/dnd
+2. Enter your 10-digit Vi no. and click on ‘Send OTP’
+You will receive an OTP (one time password) via SMS. Enter OTP and click on verify
+3. Select the desired option to activate Full, Partial DND or Block promotions
+Register via SMS
+SMS "FULLY BLOCK" to 1909 (toll free)
+Register via IVR
+Call 1909 from your registered 10-digit Vi no. and follow the instructions
+Kindly click on below link to get keyword for registering your preferences.
+DND Preference Keyword
+explore more
+How do I Activate and Deactivate my Caller Tunes
+How to activate/deactivate value added services (VAS)?

@@ -1,0 +1,11 @@
+SOURCE: https://www.myvi.in/help-support/faqs/how-to-enable-missed-call-alerts
+
+How To Enable Missed Call Alerts?
+No longer worry of missing important phone calls when you are out of network coverage or your phone is switched off. You can activate the missed call alert service that sends you a text message notifying you of the calls you missed as soon as your phone is switched on.
+To activate the Vi missed call information (MCI), follow any of the below mentioned methods:
+Activate MCI by SMS:
+You can activate missed call information via a text message for calls missed while your phone was switched off. To activate this service open the text messages application on your mobile and type “ACT MCI” in the message body, send this SMS to 54300. You will receive a confirmation message once the MCI service is activated successfully.
+Vi App Activation :
+Click to continue
+Related Searches
+I want to activate Do not Disturb ( DND ) services.

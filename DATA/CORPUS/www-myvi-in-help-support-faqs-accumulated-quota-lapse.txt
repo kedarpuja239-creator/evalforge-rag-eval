@@ -1,0 +1,5 @@
+SOURCE: https://www.myvi.in/help-support/faqs/accumulated-quota-lapse
+
+Data Related
+In what scenario, will the accumulated data quota get lapsed with an existing plan?
+Your accumulated data might lapse in case of plan change or if your number is in suspension mode due to non payment of bills or safe custody or any other reason for more than 2 bill cycles

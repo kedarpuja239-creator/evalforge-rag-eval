@@ -1,0 +1,7 @@
+SOURCE: https://www.myvi.in/help-support/faqs/data-rollover-benefits
+
+Data Related
+What is data rollover and how can I check data rollover benefit
+Data rollover allows users to carry forward any unused data from one billing cycle to the next. This means that if you don't use all of your monthly allocated data, the remaining unused data balance will be added in your next bill cycle.
+Please note the maximum data capping is 200 GB inclusive of base plan quota.
+(For example: Your postpaid plan with 50GB Base plan quota. and Roll over up to 200GB. Total data capping is 200GB (Base plan quota 50GB + Carry forward of unused data quota will be maximum up to 150GB)

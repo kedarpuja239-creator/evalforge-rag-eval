@@ -1,0 +1,7 @@
+numpy
+python-dotenv
+sentence-transformers
+langchain-text-splitters
+tiktoken
+openai
+pytest

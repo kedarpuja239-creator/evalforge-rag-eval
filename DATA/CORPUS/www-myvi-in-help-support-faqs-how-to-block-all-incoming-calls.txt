@@ -1,0 +1,10 @@
+SOURCE: https://www.myvi.in/help-support/faqs/how-to-block-all-incoming-calls
+
+<b>How To Block All Incoming Calls?</b>
+You can filter out unwanted calls and get rid of irritating callers. Here is how to block incoming calls:
+Use the USSD code *717#
+Or go to your phone settings and navigate to the Do Not Disturb section, click on “Allow calls from”, and select the option “No One”. This will prevent any incoming calls to your
+mobile number
+.
+Related Searches
+I want to activate Do not Disturb ( DND ) services.

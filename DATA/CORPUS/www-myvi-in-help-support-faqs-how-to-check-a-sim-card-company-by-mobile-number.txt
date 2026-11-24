@@ -1,0 +1,19 @@
+SOURCE: https://www.myvi.in/help-support/faqs/how-to-check-a-sim-card-company-by-mobile-number
+
+How to check a SIM card company by mobile number?
+If you have a phone number but do not know the service provider for the SIM, you can find it out.
+Here is how to check a SIM card company by Mobile Number:
+If you have the SIM inserted in your phone, then it is feasible to check the network provider details via the phone settings.
+●
+For iOS Phones:
+Go to Mobile Settings and navigate to General
+Click on About and Scroll down to Primary/Secondary
+Under Network you will see the Primary/Secondary Network Provider Name
+●
+For Android Phones:
+Open the Mobile Settings App
+Click on Network and Internet and Tap on Cellular Networks
+From available networks you can know the SIM card company
+The process might vary depending on the device type, but is more or less the same.
+Related Searches
+What do I do if I have a faulty or damaged sim?

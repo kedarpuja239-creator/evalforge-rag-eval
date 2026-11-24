@@ -1,0 +1,10 @@
+SOURCE: https://www.myvi.in/help-support/faqs/how-to-deactivate-international-roaming-service-packs
+
+Roaming
+I want to deactivate international roaming service/packs
+1) To deactivate your international roaming service/pack, please download the
+Vi App
+and deactivate the same by going to Main Menu >> Active packs and services >> Packs/Services.
+2) To deacivate your international roaming service, you need to send a message CAN IR to 199 toll free.
+Related Searches
+I want to activate International roaming service

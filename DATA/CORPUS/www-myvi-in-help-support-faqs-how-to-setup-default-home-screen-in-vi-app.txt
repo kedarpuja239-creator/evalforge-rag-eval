@@ -1,0 +1,13 @@
+SOURCE: https://www.myvi.in/help-support/faqs/how-to-setup-default-home-screen-in-vi-app
+
+Services
+How to Setup Vi Music / Vi Movies as Default Home Screen in Vi App?
+To select your default Home screen in the Vi App:
+Once you log into the
+Vi App
+, click on Menu option
+Click on "Set default homescreen"
+Choose from Vi Music/ Vi Movies to set that as you default home screen
+Every time you open the Vi App you will be taken to the selected default screen directly
+Related Searches
+How to activate/deactivate value added services (VAS)?
