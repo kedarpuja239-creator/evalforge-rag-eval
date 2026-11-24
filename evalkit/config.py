@@ -29,6 +29,6 @@ LLM_BASE_URL = os.getenv("EVALKIT_LLM_BASE_URL") or None
 
 # Retrieval knobs: the "one improvement" for the before/after proof is a change to these.
 CHUNK_STRATEGY = os.getenv("EVALKIT_CHUNK_STRATEGY", "fixed")
-CHUNK_SIZE = int(os.getenv("EVALKIT_CHUNK_SIZE", "60"))
-CHUNK_OVERLAP = int(os.getenv("EVALKIT_CHUNK_OVERLAP", "0"))
+CHUNK_SIZE = int(os.getenv("EVALKIT_CHUNK_SIZE", "800"))
+CHUNK_OVERLAP = int(os.getenv("EVALKIT_CHUNK_OVERLAP", "100"))
 TOP_K = int(os.getenv("EVALKIT_TOP_K", "5"))
